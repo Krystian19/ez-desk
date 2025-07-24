@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "pretty": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

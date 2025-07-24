@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "cache": false,
+      "dependsOn": [
+        "build",
+        "^test"
+      ]
+    },
+    "lint": {
+      "cache": false,
+      "dependsOn": [
+        "^lint"
+      ]
+    }
+  }
+}

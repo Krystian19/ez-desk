@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,video,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,video,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,video,visualstudiocode,turbo
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,video,visualstudiocode,turbo
 
 ### Linux ###
 *~
@@ -189,6 +189,10 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### Turbo ###
+# Turborepo task cache
+.turbo
+
 ### Video ###
 *.3g2
 *.3gp
@@ -226,4 +230,4 @@ dist
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,video,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,video,visualstudiocode,turbo
