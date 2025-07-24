@@ -1,9 +1,10 @@
 {
   "private": true,
   "name": "@ez-desk/app",
-  "main": "dist",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && cp -r src/public/ dist/public/",
+    "start": "npm run build && pnpx electron .",
     "test": "echo 'No tests specified' && exit 0",
     "lint": "eslint --fix --ext .ts . --cache"
   },
