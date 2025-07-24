@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsup && cp -r src/public/ dist/public/",
     "start": "npm run build && pnpx electron .",
-    "test": "echo 'No tests specified' && exit 0",
+    "test": "mocha --exit",
     "lint": "eslint --fix --ext .ts . --cache"
   },
   "dependencies": {
