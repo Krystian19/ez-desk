@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@ez-desk/app",
+  "main": "dist",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo 'No tests specified' && exit 0",
+    "lint": "eslint --fix --ext .ts . --cache"
+  },
+  "dependencies": {
+    "electron": "^37.2.4"
+  }
+}

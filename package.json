@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "ez-desk",
+  "engines": {
+    "pnpm": "^10.13.1",
+    "node": "^22.14.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
