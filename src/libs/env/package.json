@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "@heimdall/env",
+  "version": "0.0.1",
+  "main": "dist",
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint --fix --ext .ts . --cache"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
